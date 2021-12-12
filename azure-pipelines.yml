@@ -8,6 +8,8 @@ steps:
 - task: NodeTool@0
   inputs:
     versionSpec: '8.x'
+    checkLatest: false
+    force32bit: false
   displayName: 'Install Node.js'
 
 - script: |
